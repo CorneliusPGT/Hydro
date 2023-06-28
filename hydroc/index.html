@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet"href="style.css">
+	<title>Hydro</title>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="upper-header">
+				<ul>
+					<li><a href="@">Магазины</a></li>
+					<li><a href="@">Акции</a></li>
+					<li><a href="@">Доставка и оплата</a></li>
+				</ul>
+				<img src="logo.svg">
+				<nav class="upper-header-nav">
+					<a href=""><img src="loc.png">Москва,  ул. Науки  25</a>
+					<a href=""><img src="heart.svg"></a>
+					<img src="user.svg">
+					<img src="cart.svg">
+				</nav>
+			</div>
+			<div class="header-list">
+				<ul>
+					<li><a href="@">Квадроциклы</a></li>
+					<li><a href="@">Катера</a></li>
+					<li><a href="@">Гидроциклы</a></li>
+					<li><a href="@">Лодки</a></li>
+					<li><a href="@">Вездеходы</a></li>
+					<li><a href="@">Снегоходы</a></li>
+					<li><a href="@">Двигатели</a></li>
+					<li><a href="@">Запчасти</a></li>
+				</ul>
+			</div>
+			<section class="slider-sec">
+				<div class="slider">
+					<div class="slider-line">
+						<img src="extr.jpg" class="slider-pic">
+						<img src="slider1.jpg" class="slider-pic">
+						<img src="slider2.jpg" class="slider-pic">
+					</div>	
+					<button class="slider-left">
+						<img src="leftarrow.png">
+					</button>	
+
+					<button class="slider-right">
+						<img src="rightarrow.png">
+					</button>
+
+					<div class="slider-wrapper">
+						<div class="slider-dot active-dot"></div>
+						<div class="slider-dot"></div>
+						<div class="slider-dot"></div>
+					</div>				
+				</div>
+
+				<div class="discount">
+					<div class="card">
+						<div class="discount-header">
+						<div class="little-dis">АКЦИЯ</div>
+						<div class="price-dis">190 000 ₽<br>
+							<span>225 000 ₽</span></div>
+						</div>
+						<div class="engine">
+									<img src="engine.png" >
+									<p class="discount-text"> Лодочный мотор<br>
+									Suzuki DF9.9BRS</p>
+						</div>	
+						<div class="card-footer">
+							<p class="card-footer-text">Акция действует до<br>
+								<span>31.08.2020</span>
+							</p>
+						</div>				
+					</div>
+				</div>
+			</section>
+		</div>
+	</header>
+
+	<main>
+    <div class="container">
+        <div class="search-buttons">
+            <button class="search-button">Поиск по номеру</button>
+            <button class="search-button">Поиск по марке</button>
+            <button class="search-button">Поиск по названию товара</button>
+        </div>
+        <form class="search-field">
+            <input type="text" name="search" placeholder="Ввод">
+            <input type="submit" name="" value="ИСКАТЬ">
+        </form>
+        <div class="stuff">
+            <div class="stuff-card">
+                <div clas="stuff-text">
+                    <h1 class="stuff-title">Квадроциклы</h1>
+                    <button class="stuff-button">Подробнее ></button>
+                </div>
+                <img src="quad.png">
+            </div>
+            <div class="stuff-card">
+                <div clas="stuff-text">
+                    <h1 class="stuff-title">Гидроциклы</h1>
+                    <button class="stuff-button">Подробнее ></button>
+                </div>
+                <img src="gid.png">
+            </div>
+            <div class="stuff-card">
+                <div clas="stuff-text">
+                    <h1 class="stuff-title">Катера</h1>
+                    <button class="stuff-button">Подробнее ></button>
+                </div>
+                <img src="boat.png">
+            </div>
+            <div class="stuff-card">
+                <div clas="stuff-text">
+                    <h1 class="stuff-title">Снегоходы</h1>
+                    <button class="stuff-button">Подробнее ></button>
+                </div>
+                <img src="snow.png">
+            </div>
+            <div class="stuff-card">
+                <div clas="stuff-text">
+                    <h1 class="stuff-title">Вездеходы</h1>
+                    <button class="stuff-button">Подробнее ></button>
+                </div>
+                <img src="buggy.png">
+            </div>
+            <div class="stuff-card">
+                <div clas="stuff-text">
+                    <h1 class="stuff-title">Двигатели</h1>
+                    <button class="stuff-button">Подробнее ></button>
+                </div>
+                <img src="sengine.png">
+            </div>
+        </div>
+        <section class="mercs">
+            <h2 class="merc-title">Популярные товары</h2>
+            <ul class="mercs-list">
+                <li>запчасти</li>
+                <li>моторы</li>
+                <li>шины</li>
+                <li>электроника</li>
+                <li>инструменты</li>
+                <li>акссесуары</li>
+            </ul>
+            <div class="merc-cards">
+                <div class="merc-card">
+                    <img src="heart.svg" class="merc-heart">
+                    <img src="cart2.png" class="merc-cart">
+                    <div class="merc-card-content">
+                        <img src="bag.png">
+                        <p class="merc-card-text">Водонепроницаемый<br>
+                            Рюкзак</p>
+                        <p class="merc-card-price">9 800 ₽ </p>
+                    </div>
+                </div>
+                <div class="merc-card">
+                    <p class="sale">SALE</p>
+                    <img src="heart.svg" class="merc-heart">
+                    <img src="cart2.png" class="merc-cart">
+                    <div class="merc-card-content">
+                        <img src="armor.png">
+                        <p class="merc-card-text">Спасательный жилет BRP<br> Men's Airflow PFD
+                        </p>
+                        <p class="merc-card-price">6 900 ₽ </p>
+                    </div>
+                </div>
+                <div class="merc-card">
+                    <img src="heart.svg" class="merc-heart">
+                    <img src="cart2.png" class="merc-cart">
+                    <div class="merc-card-content">
+                        <img src="audio.png">
+                        <p class="merc-card-text">
+                            BRP Audio-Premium<br> System
+                            Рюкзак</p>
+                        <p class="merc-card-price">68 000 ₽ </p>
+                    </div>
+                </div>
+                <div class="merc-card">
+                    <img src="heart.svg" class="merc-heart">
+                    <div class="merc-card-content">
+                        <img src="gear.png">
+                        <p class="merc-card-text">Спасательное<br>
+                            снаряжение </p>
+                        <p class="merc-card-price">нет в наличии</p>
+                        <p class="merc-card-warn">Сообщить о поступление</p>
+                    </div>
+                </div>
+            </div>
+            <div class="more-btn"><a href="@" class="morebtn">ПОКАЗАТЬ ЕЩЁ</a></div>
+        </section>
+
+        <div class="ads">
+        	<div class="ads-pics">
+        		<img src="quad.png">
+        		<img src="buggy.png">
+        	</div>
+        	<div class="ads-text">CКИДКИ <br>
+				на все запчасти <br>
+				до 70%</div>
+				 <div class="all-btn"><a href="@" class="allbtn">ПОСМОТРЕТЬ ВСЁ</a></div>
+        </div>
+
+        <section class="mercs">
+            <h2 class="merc-title">Популярные товары</h2>
+            <ul class="mercs-list">
+                <li>запчасти</li>
+                <li>моторы</li>
+                <li>шины</li>
+                <li>электроника</li>
+                <li>инструменты</li>
+                <li>акссесуары</li>
+            </ul>
+            <div class="merc-cards">
+                <div class="merc-card">
+                	<p class="sale">SALE</p>
+                    <img src="heart.svg" class="merc-heart">
+                    <img src="cart2.png" class="merc-cart">
+                    <div class="merc-card-content">
+                        <img src="audio2.png">
+                        <p class="merc-card-text">BRP Audio-портативная<br> система</p>
+                         <p class="merc-card-price">нет в наличии</p>
+                        <p class="merc-card-warn">Сообщить о поступление</p>
+                    </div>
+                </div>
+                <div class="merc-card">                  
+                    <img src="heart.svg" class="merc-heart">
+                    <img src="cart2.png" class="merc-cart">
+                    <div class="merc-card-content">
+                        <img src="nav.png">
+                        <p class="merc-card-text">Garmin Echomap Plus<br> 62cv
+                        </p>
+                        <p class="merc-card-price">48 500 ₽ </p>
+                    </div>
+                </div>
+ 				<div class="merc-card">
+                	<p class="sale">SALE</p>
+                    <img src="heart.svg" class="merc-heart">
+                    <img src="cart2.png" class="merc-cart">
+                    <div class="merc-card-content">
+                        <img src="key.png">
+                        <p class="merc-card-text">RF D.E.S.S.TM Key</p>
+                         <p class="merc-card-price">нет в наличии</p>
+                        <p class="merc-card-warn">Сообщить о поступление</p>
+                    </div>
+                </div>
+                <div class="merc-card">                  
+                    <img src="heart.svg" class="merc-heart">
+            
+                    <div class="merc-card-content">
+                        <img src="suit.png">
+                        <p class="merc-card-text">Мужской костюм<br>
+							3мм
+                        </p>
+                        <p class="merc-card-price">48 500 ₽ </p>
+                    </div>
+                </div>
+            </div>            
+        </section>
+    </div>
+</main>
+<footer>
+    <div>
+        <img src="inst.svg">
+        <img src="vk.png">
+        <img src="fb.png">
+        <img src="yt.svg">
+    </div>
+</footer>
+	<script src="js.js"></script>
+</body>
+</html>
